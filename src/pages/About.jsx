@@ -2,32 +2,42 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className="max-w-4xl mx-auto p-6 text-gray-800">
-      <h2 className="text-3xl font-bold mb-4">About Me</h2>
-      <p className="mb-4">
-        I'm <strong>Buddhika Amarasinghe</strong>, a Full Stack Developer with over 10 years of hands-on experience in designing, developing, and implementing applications and solutions using a broad stack of technologies.
-      </p>
-      <p className="mb-4">
-        I specialize in crafting scalable solutions that meet dynamic business needs, with deep experience in enterprise systems, cloud-based architecture, and modern frontend frameworks.
-      </p>
+    <div className="max-w-5xl mx-auto p-6 text-gray-800 dark:text-white">
+      <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2">Education</h3>
-      <ul className="list-disc list-inside mb-4">
-        <li>MSc in Advanced Software Engineering – Informatics Institute of Technology (2023 - 2025)</li>
-        <li>BSc in IT (Software Engineering) – SLIIT (2008 - 2012)</li>
-      </ul>
+      <div className="grid md:grid-cols-2 gap-6">
+        <div className="bg-white/70 dark:bg-white/10 backdrop-blur-md rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6">
+          <h3 className="text-xl font-semibold mb-2">👨‍💻 Profile</h3>
+          <p>
+            I'm <strong>Buddhika Amarasinghe</strong>, a Full Stack Developer with over 10 years of hands-on experience
+            designing, developing, and implementing software solutions for both private and public sector enterprises.
+          </p>
+        </div>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2">Certifications</h3>
-      <ul className="list-disc list-inside mb-4">
-        <li>Professional Web Application Developer Using C# and MVC 5.0</li>
-        <li>PHP-MySQL Web Development – SLIIT</li>
-      </ul>
+        <div className="bg-white/70 dark:bg-white/10 backdrop-blur-md rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6">
+          <h3 className="text-xl font-semibold mb-2">🎓 Education</h3>
+          <ul className="list-disc list-inside space-y-1">
+            <li>MSc in Advanced Software Engineering – IIT (2023 - 2025)</li>
+            <li>BSc in IT (Software Engineering) – SLIIT (2008 - 2012)</li>
+          </ul>
+        </div>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2">Languages</h3>
-      <ul className="list-disc list-inside">
-        <li>English – Fluent</li>
-        <li>Sinhala – Fluent</li>
-      </ul>
+        <div className="bg-white/70 dark:bg-white/10 backdrop-blur-md rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6">
+          <h3 className="text-xl font-semibold mb-2">📜 Certifications</h3>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Professional Web App Developer (C# & MVC 5.0)</li>
+            <li>PHP-MySQL Web Development – SLIIT</li>
+          </ul>
+        </div>
+
+        <div className="bg-white/70 dark:bg-white/10 backdrop-blur-md rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6">
+          <h3 className="text-xl font-semibold mb-2">🌐 Languages</h3>
+          <ul className="list-disc list-inside space-y-1">
+            <li>English – Fluent</li>
+            <li>Sinhala – Fluent</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
